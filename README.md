@@ -1,10 +1,10 @@
-# 🔐 SecureAI Agent — AI Firewall for Multimodal Threat Detection
+# 🔐 SecureAI_Agent — AI Firewall for Multimodal Threat Detection
 
 > **"Don't secure the AI — secure what reaches the AI."**
 
-SecureAI Agent is an AI-powered security layer that acts like a firewall for AI systems, protecting them from deepfake audio attacks, hidden prompt injection inside images, and multimodal threats — **before** the input reaches the AI model.
+SecureAI_Agent is an AI-powered security layer that acts like a firewall for AI systems, protecting them from deepfake audio attacks, hidden prompt injection inside images, and multimodal threats — **before** the input reaches the AI model.
 
-Modern AI systems blindly trust user inputs. SecureAI Agent introduces a pre-processing security gate that scans, analyzes, and risk-scores inputs in real time.
+Modern AI systems blindly trust user inputs. SecureAI_Agent introduces a pre-processing security gate that scans, analyzes, and risk-scores inputs in real time.
 
 ---
 
@@ -22,13 +22,13 @@ Once such inputs reach an AI model, the damage is already done.
 
 ## 💡 Solution Overview
 
-SecureAI Agent works as a **pre-AI firewall**:
+SecureAI_Agent works as a **pre-AI firewall**:
 
 ```
-Input → SecureAI Agent → AI Model
+Input → SecureAI_Agent → AI Model
 ```
 
-Before any file reaches the AI system, SecureAI Agent:
+Before any file reaches the AI system, SecureAI_Agent:
 
 - Analyzes audio for deepfake patterns
 - Extracts hidden text from images using OCR
@@ -56,7 +56,7 @@ Before any file reaches the AI system, SecureAI Agent:
 User Upload (Audio / Image)
         ↓
 ┌─────────────────────────┐
-│     SecureAI Agent      │
+│     SecureAI_Agent      │
 │  ┌────────┐ ┌────────┐  │
 │  │ Audio  │ │ Image  │  │
 │  │Detector│ │Detector│  │
@@ -123,7 +123,7 @@ SecureAI-Agent/
 ### How It Works (Demo Flow)
 
 1. Upload an audio or image file
-2. SecureAI Agent scans the file
+2. SecureAI_Agent scans the file
 3. Risk level is displayed instantly
 4. File verdict:
    - ✅ **SAFE** — Allowed through to the AI model
@@ -186,7 +186,7 @@ streamlit run app.py
 
 ## 🏁 Conclusion
 
-SecureAI Agent introduces a new security layer for AI systems, ensuring that malicious inputs **never reach the AI model**. It is fast, modular, scalable, and designed for real-world AI security challenges.
+SecureAI_Agent introduces a new security layer for AI systems, ensuring that malicious inputs **never reach the AI model**. It is fast, modular, scalable, and designed for real-world AI security challenges.
 
 ---
 
