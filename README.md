@@ -191,7 +191,7 @@ streamlit run app.py
 
 ## Conclusion
 
-SecureAI_Agent introduces a new security layer for AI systems, ensuring that malicious inputs never reach the AI model. It is fast, modular, scalable, and designed for real-world AI security challenges.
+SecureAI_Agent introduces a new security layer for AI systems, ensuring that malicious inputs **never reach the AI model**. It is fast, modular, scalable, and designed for real-world AI security challenges.
 
 ---
 
