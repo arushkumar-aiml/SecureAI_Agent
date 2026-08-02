@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+matplotlib
+pillow
+streamlit
+pandas
+plotly
+requests
+pytesseract
